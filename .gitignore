@@ -3,6 +3,11 @@
 # dependencies
 /node_modules
 /.pnp
+/public
+/.eslintcache
+/debug.log
+/package.json
+/package-lock.jeson
 .pnp.js
 
 # testing
