@@ -29,12 +29,12 @@ function Navbar() {
 
     return (
         <>
-            <IconContext.Provider value={{color: '#ffffff'}}>
+            <IconContext.Provider value={{color: '#434343'}}>
                 <div className="navbar">
                     <div className="navbar-container container">
                         <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>
                             {/* <MdFingerprint className="navbar-icon" /> */}
-                            <img src= "https://testimageupload28102020.s3.amazonaws.com/snack-overflow-logo-no-text.png" alt="snack logo" className="navbar-logo"/>
+                            <img src= "https://testimageupload28102020.s3.amazonaws.com/snack-overflow-logo.png" alt="snack logo" className="navbar-icon"/>
                             snackOverflow
                         </Link>
                         <div className="menu-icon" onClick={handleClick}>
